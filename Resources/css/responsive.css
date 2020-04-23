@@ -1,0 +1,132 @@
+@media only screen and (max-width: 1200px) {
+
+
+    header {
+        height: 65vh;
+    }
+
+    .row {
+        margin: 0px 15px;
+    }
+
+    .hero-text-box {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .mobile-menue span {
+        display: block;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    p.little-description {
+        font-size: 26px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .main-nav row {
+        display: table;
+    }
+
+    html {
+        font-size: 57.5%;
+    }
+
+    .client-photo {
+        width: 100%;
+        float: none;
+
+    }
+
+
+    .client-review {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+    .contact-section form {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    .span_1_of_4 {
+        width: 100%;
+
+    }
+
+    .span_1_of_4 p {
+        font-size: 37px;
+        line-height: 1.6;
+    }
+
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        height: 60vh;
+
+    }
+
+    .little-description {
+        width: 100%;
+        margin-left: 0;
+        font-size: 23px:
+    }
+
+
+    h1 {
+        font-size: 45px;
+    }
+
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .span_1_of_4 {
+        width: 100%;
+    }
+
+
+    h1 {
+        font-size: 30px;
+    }
+
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    footer li {
+
+        margin-right: 6px;
+        margin-left: 24px;
+    }
+}
